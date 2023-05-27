@@ -1,0 +1,10 @@
+x = input('Digite algo aqui:')
+print('Tipo primitivo desse valor é:', type(x))
+print('Só tem espaços?', x.isspace())
+print('É um número?', x.isnumeric())
+print('É uma letra do alfabeto?', x.isalpha())
+print('É um alfanúmerico?', x.isalnum())
+print('Está tudo maiúsculo?', x.isupper())
+print('Está tudo minúsculo?', x.islower())
+print('Está capitalizada?', x.istitle())
+#capitalizada é quando apenas a primeira letra está maiúscula
